@@ -42,7 +42,6 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - table_translator@zrm2000
     - script_translator
   filters:
     - simplifier
@@ -144,11 +143,6 @@ key_binder:
     - { when: composing, accept: "]", send: Right }
     - { when: composing, accept: Tab, send: ";" }
 
-zrm2000:
-  dictionary: zrm2000
-  enable_sentence: false
-  max_phrase_length: 1
-  enable_user_dict: false
 
 recognizer:
   import_preset: default

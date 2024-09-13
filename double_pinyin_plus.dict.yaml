@@ -5,7 +5,6 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
-  - zrm2000
   - double_pinyin_plus.xiaoyi
   - double_pinyin_plus.shenzhen
   - double_pinyin_plus.food
@@ -14,4 +13,5 @@ import_tables:
   - double_pinyin_plus.life
   - double_pinyin_plus.life_chat
   - sougou_202409121330
+  - zrm2000
 ...
