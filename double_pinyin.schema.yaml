@@ -48,12 +48,13 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba;\
+  alphabet: zyxwvutsrqponmlkjihgfedcba;
   delimiter: " '"
   algebra:
     - erase/^xx$/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
+    - derive/([a-z])([a-z]);[a-z]+/$1$2;/
     - xform/^([aoe])(ng)?$/$1$1$2/
     - xform/iu$/Q/
     - xform/[iu]a$/W/
