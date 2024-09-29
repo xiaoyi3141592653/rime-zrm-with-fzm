@@ -11,6 +11,7 @@ schema:
     朙月拼音＋自然碼雙拼方案。
   dependencies:
     - stroke
+    - zrm2000
 
 switches:
   - name: ascii_mode
@@ -42,6 +43,7 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
+    - table_translator@zrm2000
     - script_translator
   filters:
     - simplifier
@@ -54,8 +56,9 @@ speller:
     - erase/^xx$/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
-    - derive/([a-z])([a-z]);[a-z]+/$1$2;/
     - xform/^([aoe])(ng)?$/$1$1$2/
+    - derive/([a-z])([a-z]);[a-z]+/$1$2;/
+    - derive/([a-z])([a-z]);[a-z]+/$1$2/
     - xform/iu$/Q/
     - xform/[iu]a$/W/
     - xform/[uv]an$/R/
@@ -87,6 +90,7 @@ speller:
 translator:
   dictionary: double_pinyin_plus
   prism: double_pinyin
+  enable_completion: true
   #preedit_format:
   #  - xform/([bpmnljqxy])n/$1in/
   #  - xform/(\w)g/$1eng/
@@ -131,6 +135,15 @@ reverse_lookup:
     - xlit/hspnz/一丨丿丶乙/
   comment_format:
     - xform/([nl])v/$1ü/
+
+
+zrm2000:
+  dictionary: zrm2000
+  enable_sentence: false
+  enable_encoder: true
+  enable_user_dict: true
+  encode_commit_history: true
+  max_phrase_length: 8
 
 punctuator:
   import_preset: default

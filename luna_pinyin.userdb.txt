@@ -3,7 +3,7 @@
 #@/db_type	userdb
 #@/rime_version	1.11.2
 #@/tick	3096
-#@/user_id	xiaoyi-sp9
+#@/user_id	xiaoyi
 a 	啊	c=8 d=1.17034 t=3096
 ai 	愛	c=1 d=0.400517 t=3096
 ai ai 	唉唉	c=9 d=3.14311 t=3096
@@ -234,7 +234,7 @@ eng 	嗯	c=1 d=0.179066 t=3096
 er qie 	而且	c=8 d=1.00547 t=3096
 er zi 	兒子	c=1 d=0.0330412 t=3096
 fa 	法	c=2 d=0.117068 t=3096
-fa 	發	c=1 d=0.0599047 t=3096
+fa 	發	c=1 d=0.0960789 t=3096
 fa bu 	發佈	c=1 d=0.806541 t=3096
 fa song 	發送	c=1 d=0.83527 t=3096
 fa xian 	發現	c=2 d=0.822835 t=3096
@@ -748,6 +748,7 @@ ri 	日	c=1 d=0.499074 t=3096
 rong yi 	容易	c=3 d=1.50504 t=3096
 rou 	肉	c=1 d=0.071719 t=3096
 ru ci 	如此	c=1 d=0.843665 t=3096
+ru gou 	乳溝	c=2 d=3.84301e-07 t=3096
 ru guo 	如果	c=40 d=13.6687 t=3096
 ru guo shuo 	如果說	c=1 d=0.70822 t=3096
 ru he 	如何	c=1 d=0.99005 t=3096
@@ -842,6 +843,7 @@ shu li 	樹立	c=2 d=1.02598 t=3096
 shu ru 	輸入	c=1 d=0.116484 t=3096
 shu ru fa 	輸入法	c=6 d=1.77294 t=3096
 shu shu 	叔叔	c=1 d=0.71177 t=3096
+shu xu guan 	鼠鬚管	c=1 d=1.95052e-07 t=3096
 shu yi shu er 	數一數二	c=1 d=0.224249 t=3096
 shuai qi 	帥氣	c=2 d=0.201323 t=3096
 shuang pin 	雙拼	c=3 d=1.90956 t=3096
@@ -963,6 +965,7 @@ wo fa xian 	我發現	c=1 d=0.551563 t=3096
 wo jia 	我家	c=1 d=0.67368 t=3096
 wo ma 	我媽	c=1 d=0.358796 t=3096
 wo men 	我們	c=30 d=12.3208 t=3096
+wo men fa 	我們發	c=1 d=1.90236e-07 t=3096
 wo qu 	我去	c=8 d=2.70381 t=3096
 wo qu de 	我去的	c=1 d=0.0439369 t=3096
 wo xian zai 	我現在	c=1 d=0.00856561 t=3096
