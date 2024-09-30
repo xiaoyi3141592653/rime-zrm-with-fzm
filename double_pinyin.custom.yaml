@@ -1,4 +1,6 @@
 patch:
+  engine/filters/+:
+    - lua_filter@*aux_code@ZRM_Aux-code_4.3
   # 扩充词库
   translator/enable_encoder: true
   translator/encode_commit_history: true
